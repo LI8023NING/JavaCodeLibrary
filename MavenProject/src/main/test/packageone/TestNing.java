@@ -9,7 +9,7 @@ public class TestNing {
     @Test
     public void test1() {
         // 连接Redis 服务
-        Jedis jedis = new Jedis("95.179.130.111", Integer.parseInt("6379"));
+        Jedis jedis = new Jedis("xxx.xxx.xxx.xxx", Integer.parseInt("6379"));
 
         System.out.println("连接成功");
         //查看服务是否运行
