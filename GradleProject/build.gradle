@@ -1,0 +1,22 @@
+group 'GradleTest'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'war'
+
+repositories {
+    // 这里默认使用 maven 的中央仓库
+    //mavenCentral()
+
+    //替换为 ali 的
+    maven {
+        url 'http://maven.aliyun.com/nexus/content/groups/public/'
+    }
+}
+
+// 正常的引入依赖
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
+    compile group: 'ant', name: 'ant-apache-log4j', version: '1.6.5'
+    compile group: 'log4j', name: 'log4j', version: '1.2.17'
+}

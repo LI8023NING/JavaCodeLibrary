@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="packageone.TestNing" tests="1" skipped="0" failures="0" errors="0" timestamp="2019-01-15T09:21:18" hostname="linin-PC" time="3.78">
+  <properties/>
+  <testcase name="test1" classname="packageone.TestNing" time="3.78"/>
+  <system-out><![CDATA[杩炴帴鎴愬姛
+鏈嶅姟姝ｅ湪杩愯: PONG
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test1
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test2
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test3
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test4
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test5
+redis 瀛樺偍鐨勫瓧绗︿覆涓?: Test6
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
