@@ -5,12 +5,12 @@ apply plugin: 'war'
 
 repositories {
     // 这里默认使用 maven 的中央仓库
-    //mavenCentral()
+    mavenCentral()
 
     //替换为 ali 的
-    maven {
+    /*maven {
         url 'http://maven.aliyun.com/nexus/content/groups/public/'
-    }
+    }*/
 }
 
 // 正常的引入依赖
@@ -19,4 +19,9 @@ dependencies {
     compile group: 'redis.clients', name: 'jedis', version: '2.9.0'
     compile group: 'ant', name: 'ant-apache-log4j', version: '1.6.5'
     compile group: 'log4j', name: 'log4j', version: '1.2.17'
+    // https://mvnrepository.com/artifact/javax.ws.rs/javax.ws.rs-api
+    compile group: 'javax.ws.rs', name: 'javax.ws.rs-api', version: '2.1.1'
+    // https://mvnrepository.com/artifact/org.apache.zookeeper/zookeeper
+    compile group: 'org.apache.zookeeper', name: 'zookeeper', version: '3.4.6'
+
 }
